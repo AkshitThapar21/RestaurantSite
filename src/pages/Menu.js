@@ -22,6 +22,7 @@ const Menu = () => {
                 component={"img"}
                 src={menu.image}
                 alt={menu.name}
+                key={menu.name}
               />
               <CardContent>
                 <Typography variant="h5" gutterBottom component={"div"}>
